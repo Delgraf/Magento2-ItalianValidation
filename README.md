@@ -37,7 +37,7 @@ It extends Amasty through a plugin and never touches Amasty files, so the valida
 ## Installation
 
 ```bash
-composer require delgraf/module-italian-validation
+composer require delgraf/module-italian-validation:dev-master
 bin/magento module:enable Delgraf_ItalianValidation
 bin/magento setup:upgrade
 bin/magento setup:di:compile
