@@ -117,7 +117,7 @@ define([
         'validate-recapitofatturaelettronica': {
             validate: isValidRecapitoFatturaElettronica,
             message: function () {
-                return $.mage.__('Please enter a valid recipient code or PEC address (e.g. M5UXCR1 or mariorossi@pec.it).');
+                return $.mage.__('Please enter a valid recipient code or PEC address (e.g. M5UXCR1 or delgraf@pec.it).');
             }
         }
     };
